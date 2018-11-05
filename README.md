@@ -39,3 +39,9 @@ Then build the app:
     npm run dev
 
 If everything was successful, you should now be able to launch the app in nRF Connect.
+
+## Why does this fork exist?
+The default Power Profiler Application does not support logging trigger and average data to file. This fork implements that functionality.
+- When you stop measurements, the entire average buffer is written to /tmp/x_average.ppkdata.
+- When the application triggers, the trigger buffer is written to /tmp/x_trigger.ppkdata.
+- The value of x increments for every time a new buffer is written to file.
