@@ -2,7 +2,7 @@
   "name": "pc-nrfconnect-ppk",
   "version": "2.0.0",
   "description": "Power Profiler",
-  "displayName": "Power Profiler",
+  "displayName": "Power Profiler (modified)",
   "repository": {
     "type": "git",
     "url": "https://github.com/NordicSemiconductor/pc-nrfconnect-ppk.git"
